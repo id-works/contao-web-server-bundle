@@ -1,0 +1,24 @@
+{
+    "name": "dieschmidts/contao-web-server-bundle",
+    "description": "",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dominik Leonhardt",
+            "email": "dominik.leonhardt@schmidt24.de"
+        }
+    ],
+    "require": {
+        "symfony/web-server-bundle": "^3.3 || ^4.2",
+        "contao/manager-plugin": "^2.7"
+    },
+    "extra": {
+        "contao-manager-plugin": "DieSchmidts\\ContaoWebServerBundle\\ContaoManager\\Plugin"
+    },
+    "autoload": {
+        "psr-4": {
+            "DieSchmidts\\ContaoWebServerBundle\\": "src/"
+        }
+    }
+}

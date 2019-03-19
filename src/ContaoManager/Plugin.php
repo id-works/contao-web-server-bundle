@@ -7,6 +7,7 @@ namespace DieSchmidts\ContaoWebServerBundle\ContaoManager;
 use Contao\ManagerPlugin\Bundle\BundlePluginInterface;
 use Contao\ManagerPlugin\Bundle\Config\BundleConfig;
 use Contao\ManagerPlugin\Bundle\Parser\ParserInterface;
+use DieSchmidts\ContaoWebServerBundle\ContaoWebServerBundle;
 use Symfony\Bundle\WebServerBundle\WebServerBundle;
 
 /**
@@ -23,6 +24,7 @@ class Plugin implements BundlePluginInterface
     {
         return [
             BundleConfig::create(WebServerBundle::class),
+            BundleConfig::create(ContaoWebServerBundle::class),
         ];
     }
 

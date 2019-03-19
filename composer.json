@@ -1,12 +1,12 @@
 {
     "name": "dieschmidts/contao-web-server-bundle",
-    "description": "",
-    "type": "library",
+    "type": "symfony-bundle",
+    "description": "Contao plugin for Symfony WebServerBundle",
     "license": "MIT",
     "authors": [
         {
             "name": "Dominik Leonhardt",
-            "email": "dominik.leonhardt@schmidt24.de"
+            "homepage": "https://www.schmidt24.de"
         }
     ],
     "require": {

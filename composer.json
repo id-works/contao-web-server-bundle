@@ -10,8 +10,13 @@
         }
     ],
     "require": {
-        "symfony/web-server-bundle": "^3.3 || ^4.2",
-        "contao/manager-plugin": "^2.7"
+        "symfony/web-server-bundle": "^3.3 || ^4.2"
+    },
+    "require-dev": {
+        "contao/manager-plugin": "^2.0"
+    },
+    "conflict": {
+        "contao/manager-plugin": "<2.0 || >=3.0"
     },
     "extra": {
         "contao-manager-plugin": "DieSchmidts\\ContaoWebServerBundle\\ContaoManager\\Plugin"

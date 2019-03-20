@@ -1,7 +1,8 @@
 {
     "name": "dieschmidts/contao-web-server-bundle",
-    "type": "symfony-bundle",
+    "type": "contao-bundle",
     "description": "Contao plugin for Symfony WebServerBundle",
+    "keywords": ["contao", "plugin", "web-server", "development"],
     "license": "MIT",
     "authors": [
         {

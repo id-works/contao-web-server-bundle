@@ -11,7 +11,8 @@
         }
     ],
     "require": {
-        "symfony/web-server-bundle": "^3.3 || ^4.2"
+        "symfony/web-server-bundle": "^3.3 || ^4.2",
+        "contao/core-bundle": "^4.4"
     },
     "require-dev": {
         "contao/manager-plugin": "^2.0"
